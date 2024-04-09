@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Chen's Boulangerie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body background="images/back.jpg">
+    <h1>Feedback</h1> 
+    <h3>Rate your experience in Yu-Chen's Boulangerie 
+    </h3> 
+    <div class="form-box"> 
+        <div class="textup"> 
+            <i class="fa fa-solid fa-clock"></i> 
+            It only takes two minutes!! 
+        </div> 
+        <form> 
+            <label for="uname"> 
+                <i class="fa fa-solid fa-user"></i> 
+                Name 
+            </label> 
+            <input type="text" id="uname" 
+                   name="uname" required> 
+  
+            <label for="email"> 
+                <i class="fa fa-solid fa-envelope"></i> 
+                Email Address 
+            </label> 
+            <input type="email" id="email" 
+                   name="email" required> 
+  
+            <label for="phone"> 
+                <i class="fa-solid fa-phone"></i> 
+                Phone Number 
+            </label> 
+            <input type="tel" id="phone" 
+                   name="phone" required> 
+  
+            <label> 
+                <i class="fa-solid fa-face-smile"></i> 
+                Do you satisfy with our service? 
+            </label> 
+            <div class="radio-group"> 
+                <input type="radio" id="yes" 
+                       name="satisfy" value="yes" checked> 
+                <label for="yes">Yes</label> 
+  
+                <input type="radio" id="no" 
+                       name="satisfy" value="no"> 
+                <label for="no">No</label> 
+            </div> 
+  
+            <label for="msg"> 
+                <i class="fa-solid fa-comments" 
+                   style="margin-right: 3px;"></i> 
+                Write your Suggestions: 
+            </label> 
+            <textarea id="msg" name="msg" 
+                      rows="4" cols="10" required> 
+            </textarea> 
+            <button type="submit"> 
+                Submit 
+            </button> 
+        </form> 
+    </div> 
+</body> 
+
+</html>

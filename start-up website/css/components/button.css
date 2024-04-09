@@ -1,0 +1,26 @@
+.navicon:hover{
+    color:#7c4a21
+}
+.heading a:hover{
+    background-color: #7c4a21;
+}
+.second-Sec a:hover{
+    background-color: #7c4a21;
+}
+.Bakery-menu a:hover{
+    background-color: #7c4a21;
+}
+.center-heading a:hover{
+    background-color: #7c4a21;
+}
+.footer i:hover{
+    color: #7c4a21;
+}
+.btn-card i:hover{
+    color: #7c4a21;
+    font-weight: bolder;
+    font-family: "Roboto", serif;
+}
+.btn-card{
+
+}

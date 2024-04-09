@@ -1,0 +1,42 @@
+.cards {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  font-display: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  background-color: floralwhite;
+}
+.card h4 {
+  flex-grow: 1;
+  font-size: 20px;
+  padding left: 20px;
+  font-display: center;
+  font-weight: 400;
+}
+#store-pic{
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+.btn-card{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: #c37a3e;
+  margin: 10px;
+}
